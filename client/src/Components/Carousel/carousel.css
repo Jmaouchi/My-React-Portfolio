@@ -1,0 +1,59 @@
+.app{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+button.slick-arrow.slick-next::before{
+  color: rgb(237, 232, 232);
+  font-size: 22px;
+}
+
+button.slick-arrow.slick-prev::before{
+  color: rgb(237, 232, 232);
+  font-size: 22px;
+}
+
+.card{
+background-color: black;
+border: 1px solid rgb(137, 134, 134);
+border-bottom-right-radius: 55px;
+color: white;
+}
+
+.card-top > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list{
+  margin: 0 -10px;
+}
+
+
+.card-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  padding: 15px;
+}
+
+.heading-slider{
+  color: rgb(95, 92, 92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 10px 10px;
+}
+
+.paragraph-slider{
+  font-size: 15px;
+  color:  rgb(79, 79, 138);
+}
