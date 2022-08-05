@@ -1,0 +1,47 @@
+/* ROOT */
+* {
+  box-sizing: border-box;
+}
+
+.contact{
+  background-color: rgb(225, 225, 231);
+}
+
+/* FONT STYLES */
+.contact-title {
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.contact-sub {
+  font-family: 'Gentiium Book Basic', sans-serif;
+}
+/* TILE */
+
+.contact-tile {
+  justify-content: center;
+}
+
+
+/* MEDIA SCREENS */
+
+@media screen and (max-width: 980px) {
+  .level-field {
+    justify-content: center;
+    align-content: center;
+  }
+
+  
+}
+
+@media screen and (max-width: 600px) {
+  .level-field {
+   display: inline-block;
+  } 
+
+  .child-contact{
+  }
+
+  .contact{
+    width: 100%;
+  }
+}
