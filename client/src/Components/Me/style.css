@@ -1,0 +1,632 @@
+:root {
+  --gray: rgb(223, 223, 223);
+  --main: rgb(4, 55, 85);
+}
+
+.span{
+  color:rgb(189, 185, 185)
+}
+
+.format-section{
+  position: relative;
+  background-color: var(--gray);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -999;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.dots{
+  position: relative;
+  margin-top: 20px;
+  color: black;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.dots-display{
+  display: flex;
+  float: left;
+  background-color: rgb(11, 11, 11);
+  padding: 15px;
+}
+
+.red-dot{
+  background-color: red;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.yellow-dot{
+  background-color: rgb(205, 205, 61);
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.green-dot{
+  background-color: green;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.dot{
+  margin-left: 5px;
+}
+
+.content-about-me{
+  display: flex;
+}
+
+.sign{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  top: 70%;
+  z-index: 1;
+  left: -150px;
+}
+
+.log-items{
+  margin: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.facebook:hover{
+  color: blue;
+}
+
+.instagram:hover{
+  color: red;
+}
+
+.linkdin:hover{
+  color: blue;
+}
+
+.linkedin:hover{
+  color: rgb(39, 83, 150);
+}
+
+.github:hover{
+  color: rgb(80, 78, 78);
+}
+
+.my-image{
+  opacity: 0.9;
+  width: 100%;
+}
+
+.content-context{
+  position: relative;
+  background-color: var(--main);
+}
+
+.left-heading{
+  position: absolute;
+  left: -65px;
+  font-size: 55px;
+  color: rgb(185, 182, 182);
+}
+
+
+.inside-heading{
+  margin-top: 65px;
+  margin-left: 5px;
+  color: rgb(187, 183, 183);
+  font-size: 45px;
+}
+
+.welcome-paragraph{
+  font-size: 20px;
+  color: rgb(165, 163, 163);
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+
+.section-two-about-me{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-two-about-me-two{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.about-me-content-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.my-image-two{
+  display: none;
+  width: 500px;
+  border-radius: 0px;
+  margin-right: 145px;
+}
+
+.small-image-p-tag{
+  display: none;
+}
+
+.about-me-content-two{
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.read-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-data{
+  color: white;
+  margin-bottom: 35px;
+  margin-top: 0px;
+  /* padding: 15px 25px 15px 25px; */
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.fa-angles-down::before{
+  font-size: 34px;
+  color: var(--main);
+}
+
+.close-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see-more{
+  position: absolute;
+  padding: 25px 15px 15px 35px;
+  border-top-left-radius: 100px;
+  background-color:rgb(15, 87, 146);
+  font-weight: bold;
+  color: rgb(216, 203, 203);
+  bottom: 0;
+  right: 0px;
+  cursor: pointer;
+}
+
+.see-more:hover{
+  position: absolute;
+  border-top-left-radius: 100px;
+  padding: 30px 20px 20px 40px;
+  background-color: white;
+  font-weight: bold;
+  color: var(--main);
+  bottom: 0;
+  right: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.fa-angles-right::before{
+  font-size: 24px;
+  background-color: none;
+  color: var(--gray);
+}
+
+.about-me-paragraph{
+  color: rgb(180, 179, 179);
+  font-style: italic;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1540px) {
+
+  .dots{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .left-heading{
+    position: absolute;
+    font-size: 45px;
+
+  }
+  
+  
+  .inside-heading{
+    margin-top: 65px;
+    font-size: 35px;
+  }
+
+  .welcome-paragraph{
+    font-size: 16px;
+    margin-left: 35px;
+  }
+
+  .section-two-about-me{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-two-about-me-two{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .my-image-two{
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .my-image{
+    opacity: 0.9;
+    width: 50%;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about-me-paragraph{
+    color: rgb(180, 179, 179);
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .left-heading{
+    position: absolute;
+    font-size: 40px;
+  }
+  
+  
+  .inside-heading{
+    margin-top: 45px;
+    font-size: 38px;
+  }
+
+  .welcome-paragraph{
+    font-size: 14px;
+    margin-left: 9px;
+  }
+
+  .section-two-about-me{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .my-image-two{
+    width: 180px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .my-image{
+    opacity: 0.9;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about-me-paragraph{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .sign{
+    width: 200px;
+    top: 81%;
+  }
+  
+}
+
+@media screen and (max-width: 986px) {
+
+  .format-section{
+    min-height: 90vh;
+    display: flex;
+  }
+  
+  .dots{
+    width: 90%;
+    min-height: 40vh;
+  }
+
+  .left-heading{
+    left: -52px;
+    font-size: 28px;
+  }
+  
+  
+  .inside-heading{
+    margin-top: 45px;
+    font-size: 28px;
+  }
+
+  .welcome-paragraph{
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .my-image-two{
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .about-me-paragraph{
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .sign{
+    width: 200px;
+    font-size: 12px;
+    font-weight: bold;
+    top: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 789px) {
+    
+  .inside-heading{
+    margin-top: 35px;
+    font-size: 23px;
+  }
+
+  .my-image-two{
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .about-me-paragraph{
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .sign{
+    width: 200px;
+    font-size: 9px;
+    font-weight: bold;
+    top: 78%;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 559px) {
+
+  .content-about-me{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .format-section{
+    position: relative;
+    background-color: rgb(230, 228, 228);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -999;
+    font-family: 'Bungee Inline', cursive;
+  }
+  
+  .dots{
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(172, 172, 171);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .dots-display{
+    display: flex;
+    float: left;
+    background-color: rgb(92, 88, 88);
+    padding: 15px;
+  }
+  
+  .red-dot{
+    background-color: red;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  .yellow-dot{
+    background-color: rgb(205, 205, 61);
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  .green-dot{
+    background-color: green;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  
+  .sign{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    top: 70%;
+    bottom: -100px;
+    z-index: 1;
+    left: -120px;
+  }
+
+  .log-items{
+    cursor: pointer;
+  }
+
+  .about-me-paragraph{
+    letter-spacing: 0.09rem;
+    border-top: 1px solid white ;
+    font-size: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+    border-bottom: 1px solid white ;
+  }
+  
+  .my-image{
+    opacity: 0.9;
+    width: 100%;
+  }
+  
+  .content-context{
+    position: relative;
+  }
+
+  .span{
+    color: rgb(185, 182, 182);
+  }
+
+  .see-more{
+    position: absolute;
+    padding: 15px 10px 10px 20px;
+    font-size: 10px;
+    border-top-left-radius: 100px;
+    background-color:rgb(15, 87, 146);
+    font-weight: bold;
+    color: rgb(216, 203, 203);
+    bottom: 0;
+    right: 0px;
+    cursor: pointer;
+  }
+  
+  .left-heading{
+    position: absolute;
+    left: 40%;
+    font-size: 28px;
+    color: rgb(185, 182, 182);
+  }
+  
+  .inside-heading{
+    margin-top: 40px;
+    margin-left: 28%;
+    color: rgb(185, 182, 182);
+    font-size: 28px;
+  }
+  
+  .welcome-paragraph{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    color: rgb(139, 136, 136);
+  }
+
+  
+  .section-two-about-me-two{
+    margin-top: 50px;
+  }
+  
+  .section-two-about-me{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .my-image-two{
+    display: inline;
+    width: 70%;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    cursor: pointer;
+  } 
+  .format-section{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -999;
+    font-family: 'Bungee Inline', cursive;
+  }
+   
+}
