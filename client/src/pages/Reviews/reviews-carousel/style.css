@@ -1,0 +1,66 @@
+.app{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.box-top h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list{
+  margin: 0 -10px;
+}
+
+
+.box-bottom p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  padding: 15px;
+  color: rgb(141, 141, 141);
+}
+
+.heading-slider{
+  color: rgb(95, 92, 92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 10px 10px;
+}
+
+
+.box-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(4, 55, 85);
+}
+
+.box-stars i{
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 556px){
+
+  .box-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(4, 55, 85);
+  }
+}
