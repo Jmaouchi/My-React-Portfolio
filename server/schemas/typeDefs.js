@@ -6,6 +6,9 @@ type Contact {
   _id : ID,
   firstName: String,
   lastName: String,
+  email: String,
+  phoneNumber: Int,
+  text: String
 }
 
 type Review {
@@ -20,7 +23,7 @@ type Query {
 }
 
 type Mutation {
-  addContact(firstName: String, lastName: String) : [Contact
+  addContact(firstName: String, lastName: String, email: String, phoneNumber: Int, text: String) : [Contact]
 }
 `;
 
