@@ -1,0 +1,340 @@
+/* animation start here */
+.div-col{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.div-col::before{
+content: "";
+position: absolute;
+width: 70px; /* this is the width of the box */
+background-image: -webkit-gradient(linear, left top, left bottom, from (rgb(186, 184, 190), to (rgb(241, 159, 173))));
+background-image: linear-gradient(180deg, rgb(156, 162, 165), rgb(121, 107, 110));
+height: 145%; /* this will make sure that the box it hitting the top of the borders */
+-webkit-animation: rotBGimg 3s linear infinite;
+animation: rotBGimg 3s linear infinite;
+-webkit-transition: all 0.2s linear;
+transition: all 0.2s  linear;
+}
+
+
+.div-col:after {
+content: "";
+position: absolute;
+background-color:black;
+inset:2px; /* this is what is going to do the job by creating a little gap between the after and the befor */
+border-radius: 15px;
+}
+
+@-webkit-keyframes rotBGimg {
+  from{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes rotBGimg {
+  from{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* animation ends here */
+
+
+.hero-image{
+  position: relative;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('../../images/flo.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.hero-section{
+  background-image:url('../../images/Pihladelphia.jpeg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  min-height: 30vh;
+  top: 60%;
+  border-radius: 5px;
+}
+
+.hero-section::before{
+  content: "";
+  height: 60%;
+  width: 170px;
+  background-color: var(--main);  
+  position: absolute;
+  top: -5px;
+  left: -7px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.hero-content-two{
+  position: relative;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(6, 6, 6);
+}
+
+.grid-bottom-line{
+  position: relative;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(3, 3, 3);
+}
+
+.line{
+  position: absolute;
+  bottom: -20px;
+  background-color: var(--main);
+  padding: 0.2px;
+  width: 300px;
+}
+
+.work-area{
+  background: rgb(6, 6, 6);
+}
+
+.work-area-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:100px;
+  font-size: 35px;
+}
+
+.text-wrapper-heading{
+  color: rgb(45, 139, 177);
+}
+
+.typewrite{
+  font-size: 18px;
+  color: rgb(82, 83, 85);
+  margin-top: 15px;
+}
+
+
+.myWork-content{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myWork-heading{
+  font-size: 32px;
+}
+
+.myWork-paragraph{
+  font-size: 16px;
+}
+
+.portfolio-item-wrapper {
+  padding: 1px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.portfolio-item-wrapper:hover .item{
+  filter: brightness(20%);
+}
+
+.portfolio-items-wrapper {
+  background: rgb(13, 13, 13);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.portfolio-img-background{
+  height: 350px;
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.portfolio-img-background:hover{
+  filter: brightness(20%);
+}
+
+.carousel-section{
+  background: rgb(13, 13, 13);
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.logo-wrapper img {
+  width: 10%;
+  margin-bottom: 200px;
+}
+
+
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+  margin-top: 15px;
+}
+
+.img-text-wrapper:hover h2{
+  font-size: 30px;
+}
+
+.img-text-wrapper:hover p{
+  font-size: 14px;
+}
+
+
+.img-text-wrapper:hover .subtitle {
+  color: rgb(191, 193, 195);
+}
+
+.fa-brands, .icon {
+  font-size: 50px;
+  margin-left: 5px;
+  color: rgb(191, 193, 195);
+}
+
+.section-my-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background: rgb(6, 6, 6);
+}
+
+.section-heading{
+  font-size: 45px; 
+  color: rgb(95, 93, 93);
+}
+
+
+@media screen and (max-width: 756px){
+
+  .portfolio-items-wrapper {
+    background-color: rgb(60, 59, 58);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media screen and (max-width: 556px){
+  .hero-section{
+    width: 60%;
+    min-height: 20vh;
+    top: 83%;
+  }
+
+  .hero-section::before{
+    border-radius: 5px;
+  }
+
+  .portfolio-items-wrapper {
+    background-color: rgb(13, 13, 13);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .work-area-content h2{
+   font-size: 40px; 
+  }
+
+  .typewrite{
+    font-size: 15px;
+  }
+
+  .section-heading{
+    font-size: 20px;
+  }
+
+  .line{
+    position: absolute;
+    bottom: -20px;
+    background-color: rgb(22, 97, 158);
+    padding: 0.2px;
+    width: 100px;
+  }
+
+  .section-heading{
+    font-size: 40px; 
+    color: rgb(95, 93, 93);
+  }
+
+  .portfolio-img-background{
+    height: 250px;
+    width: 100%;
+    filter: brightness(55%);
+  }
+
+  .fa-brands, .fa-solid {
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(191, 193, 195);
+  }
+
+  .img-text-wrapper .subtitle {
+    transition: 1s;
+    font-size: 10px;
+    color: rgb(162, 157, 157);
+    margin-top: 2px;
+  }
+
+  .img-text-wrapper .subtitle h2{
+    font-size: 17px;
+    font-weight: bold;
+  }
+} 
