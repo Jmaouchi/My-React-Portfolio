@@ -20,7 +20,7 @@ type Query {
 }
 
 type Mutation {
-  addContact(firstName: String, lastName: String) : [Contact]
+  addContact(firstName: String, lastName: String) : [Contact
 }
 `;
 
