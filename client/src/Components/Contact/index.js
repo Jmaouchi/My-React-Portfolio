@@ -8,7 +8,6 @@ import { ADD_CONTACT } from '../../utils/mutations';
 
 function ContactPage() {
   const [contacts, setContacts] = useState({firstName:'', lastName:'', email:'', text:''});
-
   // get the addUser mutation from the useMutation apollo/client
   const [contact] = useMutation(ADD_CONTACT);
   // Update the state once the user enter new values
