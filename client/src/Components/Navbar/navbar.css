@@ -1,0 +1,285 @@
+.main{
+  position: relative;
+}
+
+.NavbarItems{
+  position: absolute;
+  background:rgb(7, 7, 7);
+  border-bottom: 1px solid rgb(81, 80, 80);
+  color: rgb(148, 143, 143);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  position: sticky;
+  position: -webkit-sticky;
+  padding: 15px;
+}
+
+.nav-menu.active{
+  background-color: var(--main);
+  width: 10.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100%;
+  left: 0;
+  opacity: 1;
+  transform: all 0.5s ease;
+  border: 1px solid white;
+  z-index: 9999;
+}
+
+
+.logo-path{
+  text-decoration: none;
+}
+
+.logo{
+  width: 100px;
+  overflow: hidden;
+}
+
+.navbar-logo{
+  color: rgb(192, 185, 185);
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  justify-self: start;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.fa-react{
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu.active{
+  position: absolute;
+  z-index: 9999;
+}
+
+.nav-menu{
+  list-style: none;
+  z-index: 999;
+}
+
+
+.nav-links{
+  color: black;
+  background-color: rgb(185, 181, 181);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+}
+
+.nav-links:hover{
+  color: black;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-bars, .fa-times{
+  cursor: pointer;
+  color: white;
+}
+
+.nav-links-mobile{
+  display: none;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.nav-links{
+  text-align: center;
+  padding: 1.2rem;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  margin: 5px;
+  border: 1px solid rgb(100, 99, 99);
+  border-radius: 10px;
+}
+
+.facebook, .instagram, .linkedin, .github{
+  color: rgb(8, 8, 8);
+}
+
+
+@media screen and (max-width: 1960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    top: 80px;
+    left: -500px;
+    opacity: 1;
+    transition:  all 0.5s ease;
+  }
+
+
+  .nav-links:hover{
+    border-radius: 15px;
+    transform: rotateY(.5turn);
+  }
+
+
+  .navbar-log{
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav-links-mobile{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color: #48d9e4;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  button{
+    display: none;
+  }
+}
+
+.jugurta-logo{
+  color: var(--main);
+  padding: 2px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1550px) {
+  .nav-menu{
+    height: 300px;
+  }
+
+  .nav-links {
+    padding: 1.1rem;
+    width: 80px;
+  }
+
+  .menu-icon{
+    font-size: 1.7rem;
+  }
+
+  button{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 986px) {
+
+  .nav-menu.active{
+    background-color: rgb(57, 55, 55);
+    width: 15%;
+  }
+
+  .option-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links {
+    padding: 1rem;
+    width: 70px;
+    font-size: 15px;
+  }
+
+  .jugurta-logo{
+    padding: 2px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+
+  .menu-icon{
+    font-size: 1.7rem;
+  }
+
+  button{
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 560px) {
+
+  .nav-menu.active{
+    position:absolute;
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transform: all 0.5s ease;
+    border: 1px solid rgb(113, 113, 113);  
+    z-index: 9999;
+  }
+
+  .nav-links {
+    padding: .7rem;
+    width: 50px;
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 100px;
+  }
+
+  .menu-icon{
+    font-size: 1.7rem;
+  }
+
+  button{
+    display: none;
+  }
+
+
+  .fa-bars, .fa-times{
+    font-size: 25px;
+  }
+
+  .facebook, .instagram, .linkedin, .github{
+    font-size: 5px;
+  }
+  
+}

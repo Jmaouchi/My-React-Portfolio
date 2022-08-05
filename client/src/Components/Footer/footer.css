@@ -1,0 +1,56 @@
+.footer{
+  background:rgb(6, 6, 6);
+  color: rgb(148, 143, 143);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  border-top: 1px solid rgb(97, 95, 95);
+}
+
+.footer-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.log-items:active{
+  color:black;
+}
+
+.footer-author{
+  font-size: 13px;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 509px) {
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .small-image-p-tag{
+    font-size: 6px;
+    margin-bottom: 10px;
+  }
+
+  .footer-author{
+    font-size: 7px;
+  }
+
+  .log-items{
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .facebook, .instagram, .linkedin, .github{
+  font-size: 13px;
+}
+}
