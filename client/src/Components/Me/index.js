@@ -7,6 +7,7 @@ import AnimatePage from '../Animate'
 import Typewriter from 'typewriter-effect'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ContactB from '../Contact2'
 
 function Me() {
   const [about, showMore] = useState(false);
@@ -98,7 +99,8 @@ function Me() {
             </ul>
           </div>  
         </div>
-        </section>
+        <ContactB />
+        </section>      
         )}
       </AnimatePage>
       <Footer></Footer>

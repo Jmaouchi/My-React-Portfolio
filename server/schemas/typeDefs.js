@@ -23,7 +23,7 @@ type Query {
 }
 
 type Mutation {
-  addContact(firstName: String, lastName: String, email: String, phoneNumber: Int, text: String) : [Contact]
+  addContact(firstName: String!, lastName: String!, email: String!, phoneNumber: Int, text: String!) : Contact
 }
 `;
 

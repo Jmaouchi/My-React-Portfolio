@@ -18,7 +18,6 @@ const resolvers = {
   Mutation: {
     addContact: async (parent, args) => {
       const  contact = await Contact.create(args);
-      // return the token and the user data. 
       return {contact}
     },
   }
