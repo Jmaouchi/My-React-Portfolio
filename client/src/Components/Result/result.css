@@ -1,0 +1,88 @@
+.result-model{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main);
+  color: white;
+  min-height: 20vh;
+  position: absolute;
+  top: -460px;
+  left: 38%;
+  padding: 55px;
+  border-radius: 50px;
+}
+
+.result-content:hover{
+  background-color: black;
+}
+
+.result-message{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.fa-circle-check{
+  color: rgb(12, 211, 12);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 35px;
+
+}
+
+.result-options{
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-options:hover{
+  background-color: rgb(146, 148, 150);
+  padding: 6px;
+}
+
+.resend{
+  margin-right: 25px;
+
+}
+
+.home{
+  margin-left: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .result-content{
+    width: 100%;
+    position: absolute;
+    top: -460px;
+    left: 0%;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  
+.fa-circle-check{
+  color: rgb(12, 211, 12);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+  
+}

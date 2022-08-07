@@ -43,6 +43,7 @@ function ContactPage() {
                       placeholder='Full Name'
                       id='first'
                       name='name'
+                      required
                     ></input>
                   </div>
                 </div>
@@ -56,6 +57,7 @@ function ContactPage() {
                       placeholder='Email'
                       id='email'
                       name='email'
+                      required
                     ></input>
                   </div>
                   <div className='level-item is-flex-wrap-wrap'>
@@ -64,6 +66,7 @@ function ContactPage() {
                       placeholder='Phone Number'
                       id='phone'
                       name='phone'
+                      required
                     ></input>
                   </div>
                 </div>
@@ -75,6 +78,7 @@ function ContactPage() {
                     id='text'
                     placeholder="says"
                     name='message'
+                    required
                   ></textarea>
                 </div>
               </div>
@@ -88,7 +92,8 @@ function ContactPage() {
         
       }
       <div>
-        {result ? <Result /> : null}
+        {/* {result ? <Result /> : null} */}
+        <Result></Result>
       </div>
       <Footer  />
     </>
