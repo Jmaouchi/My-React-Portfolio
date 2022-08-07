@@ -44,29 +44,47 @@
   content: '';
   top: 80px;
   left: 30%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(7, 7, 39); 
   min-height: 50vh;
   width: 40%;
   position: absolute;
   z-index: 999;
   padding: 25px;
   border-radius: 25px;
+  border: 1px solid rgb(156, 152, 152);
 }
 
 .model-content{
-  color: rgb(167, 7, 7);
+  color: wheat;
   font-size: 20px;
   margin-bottom: 25px;
   cursor: pointer;
+  font-weight: 600;
+}
+
+.model-content i{
+  color: red;
 }
 
 .model-context p{
-  color: white;
+  color: rgb(167, 164, 159);
   padding: 25px;
 }
 
 .model-context .stars{
   margin-bottom: 35px;
+}
+
+/* .level-item input{
+  background-color: rgb(207, 204, 204);
+} */
+
+.level-item textarea{
+  background-color: rgb(207, 204, 204);
+}
+
+input#name.input.level-item.level-input-border{
+  background-color: red;
 }
 
 .review-stars-context{
@@ -157,8 +175,8 @@ li{
 }
 
 .submit{
-  background-color: var(--main);
-  color: white;
+  background-color: white;
+  color: rgb(7, 6, 6);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,8 +186,8 @@ li{
 }
 
 .submit:hover{
-  background-color: rgb(204, 202, 202);
-  color: var(--main);
+  background-color: rgb(194, 184, 184);
+  color: rgb(12, 11, 11);
 }
 
 .my-second-logo{
@@ -255,14 +273,15 @@ li{
 
   .model {
     content: '';
-    top:20px;
+    top:5px;
     left: 0%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(7, 7, 39);
     min-height: 10vh;
     width: 100%;
     position: absolute;
     z-index: 999;
     padding: 25px;
     border-radius: 25px;
+    border: 5px solid rgb(109, 107, 107);
 }
 }

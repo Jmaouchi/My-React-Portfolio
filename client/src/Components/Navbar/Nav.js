@@ -8,7 +8,6 @@ function Nav() {
 
   const handleClick = () => {
     setClick(true)
-
   }
 
   return (
@@ -17,7 +16,7 @@ function Nav() {
       <nav className='NavbarItems'>
         <Link to={'/'} className="logo-path"><img src={logo} alt="my logo" className='logo'></img></Link>
         <div className='menu-icon'>
-            <i className={clicked ? 'fas fa-times' : 'fas fa-bars'} onClick={handleClick}>
+            <i className={clicked ? 'fas fa-times' : 'fas fa-bars'} onClick={() => handleClick(true)}>
             </i>
         </div>
         <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
