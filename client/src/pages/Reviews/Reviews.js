@@ -29,7 +29,7 @@ function Reviews() {
               <h1 className='my-site-left-context-heading'>My portgolio Reviews</h1>
               <p className='my-site-left-context-paragraph'>Here goes my portfolio descriptions</p>
               <div className='review-stars'>
-                <p>780 reviews</p>
+                <p>50 reviews</p>
               </div>
             </div>
           </div> 
