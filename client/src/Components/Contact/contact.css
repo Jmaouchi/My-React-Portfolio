@@ -3,13 +3,27 @@
   box-sizing: border-box;
 }
 
+.main-contact-page{
+  background-color: var(--main);
+}
+
 .contact{
-  background-color: rgb(225, 225, 231);
+  min-height: 100vh;
+  padding: 1px;
 }
 
 /* FONT STYLES */
 .contact-title {
+  color: var(--main);
+  padding: 10px;
+  font-size: 38px;
   font-family: 'Abril Fatface', sans-serif;
+}
+
+.tile.is-ancestor {
+  margin-left: 0rem; 
+  margin-right: 0rem;
+  margin-top: 0rem;
 }
 
 .contact-sub {
@@ -37,10 +51,7 @@
   .level-field {
    display: inline-block;
   } 
-
-  .child-contact{
-  }
-
+  
   .contact{
     width: 100%;
   }
@@ -53,4 +64,20 @@
     flex-shrink: 1;
     justify-content: center;
 }
+
+  .contact-title{
+    font-size: 25px;
+  }
+
+  .title{
+    background-attachment: red;
+  }
+
+  .contact-infos-paragraph{
+    font-size: 15px;
+  }
+
+  .tile.is-parent {
+    padding: 3rem;
+  }
 }
