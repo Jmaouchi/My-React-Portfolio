@@ -99,7 +99,6 @@ function Me() {
             </ul>
           </div>  
         </div>
-        <ContactB />
         </section>      
         )}
       </AnimatePage>
