@@ -68,6 +68,7 @@
 
 
 @media screen and (max-width: 600px) {
+
   .result-content{
     width: 100%;
     position: absolute;
@@ -76,13 +77,18 @@
     padding: 15px;
     border-radius: 15px;
   }
-
   
-.fa-circle-check{
-  color: rgb(12, 211, 12);
-  font-size: 20px;
-  margin-right: 5px;
-}
+  .fa-circle-check::before{
+    color: rgb(12, 211, 12);
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .result-options{
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
 
   
 }
