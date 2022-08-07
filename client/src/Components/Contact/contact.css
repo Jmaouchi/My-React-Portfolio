@@ -44,4 +44,13 @@
   .contact{
     width: 100%;
   }
+
+  .level-item {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: center;
+}
 }

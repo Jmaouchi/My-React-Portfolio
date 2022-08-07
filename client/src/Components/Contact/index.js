@@ -3,7 +3,7 @@ import './contact.css'
 import Nav from '../../Components/Navbar/Nav'
 import Footer from '../Footer/index';
 import emailjs from '@emailjs/browser';
-import Result from '../Result';
+import Result from './Result';
 // import useMutation from the apollo client. (this will allow us to use the mutations that we has as a middleware on the server side)
 // import { useMutation } from '@apollo/client';
 // import { ADD_CONTACT } from '../../utils/mutations';
@@ -92,8 +92,7 @@ function ContactPage() {
         
       }
       <div>
-        {/* {result ? <Result /> : null} */}
-        <Result></Result>
+        {result ? <Result result={result} showResult={showResult}/> : null}
       </div>
       <Footer  />
     </>

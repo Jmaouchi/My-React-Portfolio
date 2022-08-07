@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Result from '../Result';
+import Result from '../Contact/Result';
 
 function ContactB() {
   const [result, showResult] = useState(false)
