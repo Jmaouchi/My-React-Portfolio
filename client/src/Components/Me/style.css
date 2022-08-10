@@ -476,7 +476,7 @@
   .dots{
     position: relative;
     margin-top: 20px;
-    background-color: rgb(172, 172, 171);
+    background-color: black;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -486,7 +486,7 @@
   .dots-display{
     display: flex;
     float: left;
-    background-color: rgb(92, 88, 88);
+    background-color: black;
     padding: 15px;
   }
   
