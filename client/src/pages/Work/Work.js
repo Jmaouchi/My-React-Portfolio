@@ -60,7 +60,7 @@ function Work() {
         <div className='grid-bottom-line'>
           <div className='line'></div>
         </div>
-        <div className='section-my-skills'>     
+        <div className='section-resume'>     
           <h2 className='section-heading'><span className='span'>My</span> Skills</h2>
         </div>
         <div className='carousel-section'>
@@ -70,8 +70,12 @@ function Work() {
         <div className='grid-bottom-line'>
           <div className='line'></div>
         </div>
-        <div className='section-my-skills'>     
-          <h2 className='section-heading'><span className='span'>My</span> Reviews</h2>
+        <div className='section-resume'>     
+          <h2 className='section-heading'><span className='span'>My</span> Resume</h2>
+          <div className='resume'>
+            <p>Dowload my resume here</p>
+            
+          </div>  
         </div>
       </div> 
 

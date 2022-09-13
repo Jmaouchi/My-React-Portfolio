@@ -2,7 +2,7 @@ export const myWorkdata = [
   {
     id:1,
     title:"Weather Dashboard",
-    text:"This app is built using HTML, CSS, JS .An app that i've built on my own 2022, this app will give access to a daily and weekly wether status in your curent area",
+    text:"This app is built using HTML, CSS, JS. An app that i've built on my own 2022, this app will give you access to a daily and weekly wether status in your curent area",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/C59tXy8H/weather.webp",
     path:""
@@ -10,7 +10,7 @@ export const myWorkdata = [
   {
     id:2,
     title:"Pizza Hunt",
-    text:"This app is an MREN application. its a training project that will allow you to create your own pizza and checkout",
+    text:"This app is an MREN application. It will allow you to create your own pizza and checkout",
     techs: ['fa-brands fa-react', 'fa-solid fa-database icon'],
     image:"https://i.postimg.cc/253tk8xF/pizza.webp",
     path:"https://pizza-hunt-hunt.herokuapp.com/"
