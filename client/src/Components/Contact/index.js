@@ -14,7 +14,7 @@ function ContactPage() {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_aftmqcs', 'template_6ze1f5a', form.current, 'QOoBe1iurTGetrget')
+      emailjs.sendForm('service_j84of8n', 'template_6ze1f5a', form.current, '95R44YpVYI3jOrQ2D')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
