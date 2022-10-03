@@ -17,6 +17,10 @@
   padding: 15px;
 }
 
+.option-links{
+  margin-right: 20px;
+}
+
 .nav-menu.active{
   background-color: var(--main);
   width: 10.5%;
@@ -65,7 +69,6 @@
   list-style: none;
   z-index: 999;
 }
-
 
 .nav-links{
   color: black;
@@ -116,7 +119,6 @@
   .NavbarItems {
     position: relative;
   }
-
   .nav-menu{
     position: absolute;
     display: flex;
@@ -127,6 +129,10 @@
     left: -500px;
     opacity: 1;
     transition:  all 0.5s ease;
+  }
+
+  .option-links{
+    display: flex;
   }
 
 
@@ -145,7 +151,7 @@
   }
 
   .menu-icon{
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -182,15 +188,13 @@
 @media screen and (max-width: 1550px) {
   .nav-menu{
     height: 300px;
+    
   }
+
 
   .nav-links {
     padding: 1.1rem;
     width: 80px;
-  }
-
-  .menu-icon{
-    font-size: 1.7rem;
   }
 
   button{
@@ -207,13 +211,8 @@
     width: 15%;
   }
 
-  .option-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .nav-links {
+    display: none;
     padding: 1rem;
     width: 70px;
     font-size: 15px;
@@ -226,6 +225,7 @@
   }
 
   .menu-icon{
+    display: block;
     font-size: 1.7rem;
   }
 

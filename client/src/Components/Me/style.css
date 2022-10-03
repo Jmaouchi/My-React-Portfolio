@@ -422,6 +422,12 @@
     font-weight: bold;
     top: 80%;
   }
+
+  .see-more{
+    position: absolute;
+    padding: 12px 7px 7px 15px;
+    font-size: 10px;
+  }
   
 }
 

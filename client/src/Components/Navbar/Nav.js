@@ -16,17 +16,17 @@ function Nav() {
       <nav className='NavbarItems'>
         <Link to={'/'} className="logo-path"><img src={logo} alt="my logo" className='logo'></img></Link>
         <div className='menu-icon'>
-            <i className={clicked ? 'fas fa-times' : 'fas fa-bars'} onClick={() => handleClick(true)}>
+            <i className={!clicked ? 'fas fa-times' : 'fas fa-bars'} onClick={() => handleClick(true)}>
             </i>
         </div>
-        <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-          <li className='option-links'>
-            <Link className='nav-links' to={'/'}>About</Link>
+        <ul>
+          <div className='option-links'>
             {/* <Link className='nav-links' to={'/hobbies'}>About</Link> */}
-            <Link className='nav-links' to={'/work'}>Work</Link>
-            <Link className='nav-links' to={'/Contact'}>Contact</Link>
-            <Link className='nav-links' to={'/Reviews'}>Review</Link>
-          </li>
+            <li  key={'one'}><Link className='nav-links' to={'/'}>About</Link></li>
+            <li  key={'two'}><Link className='nav-links' to={'/work'}>Work</Link></li>
+            <li  key={'three'}><Link className='nav-links' to={'/Contact'}>Contact</Link></li>
+            <li  key={'four'}><Link className='nav-links' to={'/Reviews'}>Review</Link></li>
+          </div>
         </ul>
       </nav>
     </div>  
