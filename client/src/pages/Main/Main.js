@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from "../../Components/Navbar/Nav"
+import Navbar2 from "../../Components/Navbar2/index"
 import Me from '../../Components/Me/index'
 
 function Main() {
   return (
     <div>
-      <Navbar />
+      <Navbar2 />
       <Me />
     </div>
   )
