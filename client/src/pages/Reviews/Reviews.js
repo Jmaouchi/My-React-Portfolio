@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Nav from '../../Components/Navbar/Nav'
+import Nav from '../../Components/Navbar/index'
 import './reviews.css'
 import logoImage from '../../images/logo.png'
 import Footer from '../../Components/Footer'

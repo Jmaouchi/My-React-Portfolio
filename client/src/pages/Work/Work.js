@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import Nav from '../../Components/Navbar/Nav'
+import React from 'react'
+import Nav from '../../Components/Navbar'
 import './work.css'
 import Typewriter from 'typewriter-effect'
 import Carousel from '../../Components/Carousel';

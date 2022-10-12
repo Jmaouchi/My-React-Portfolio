@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './contact.css'
-import Nav from '../../Components/Navbar/Nav'
+import Nav from '../Navbar'
 import Footer from '../Footer/index';
 import emailjs from '@emailjs/browser';
 import Result from './Result';

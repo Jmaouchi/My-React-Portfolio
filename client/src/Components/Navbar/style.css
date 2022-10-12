@@ -1,0 +1,49 @@
+.navbar{
+  background-color: black;
+  padding: 15px;
+  border-bottom: 1px solid rgb(170, 166, 166);
+}
+
+.button.is-danger.is-outlined {
+  color: black;
+  background-color: rgb(185, 181, 181);
+  border-color: #0e0d0d;
+  text-decoration: none;
+  padding: 1.5rem 1rem;
+  font-size: 15px;
+  border-radius: 50px;
+}
+
+.button.is-info.is-outlined {
+  color: black;
+  background-color: rgb(185, 181, 181);
+  border-color: #0e0d0d;
+  text-decoration: none;
+  padding: 1.5rem 1rem;
+  font-size: 15px;
+  border-radius: 50px;
+}
+
+.button.is-danger.is-outlined:hover, .button.is-info.is-outlined:hover{
+  background-color: var(--main);
+  border-color: #0e0d0d;
+  transform: rotate(360deg);
+  color: white;
+  border-radius: 4px;
+  transition: all 1s ease-in-out;
+  border-radius: 17px;
+}
+
+
+.navbar-burger {
+  background-color: rgba(0,0,0,.05);
+  color: white;
+}
+
+@media screen and (max-width: 1023px){
+.navbar-menu {
+    background-color: var(--main);
+    box-shadow: white;
+    padding: 0.5rem 0;
+}
+}
