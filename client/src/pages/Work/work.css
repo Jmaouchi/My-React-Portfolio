@@ -261,10 +261,24 @@ border-radius: 15px;
   color: rgb(95, 93, 93);
 }
 
-.resume p{
-  color: white;
-  margin-top: 25px;
+.resume-download{
+  padding: 25px 15px;
+  background-color: var(--main);
+  color: rgb(144, 141, 141);
 }
+
+.resume-download:hover{
+  padding: 25px 15px;
+  background-color: rgb(218, 206, 206);
+  color: var(--main);
+}
+
+.resume-download:hover .icon{
+  color: black;
+}
+
+
+
 @media screen and (max-width: 756px){
 
   .portfolio-items-wrapper {

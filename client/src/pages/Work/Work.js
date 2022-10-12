@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect'
 import Carousel from '../../Components/Carousel';
 import { myWorkdata } from './workData';
 import Footer from '../../Components/Footer'
+import { MdGetApp } from 'react-icons/md';
 
 function Work() {
 
@@ -72,9 +73,20 @@ function Work() {
         </div>
         <div className='section-resume'>     
           <h2 className='section-heading'><span className='span'>My</span> Resume</h2>
-          <div className='resume'>
-            <p>Dowload my resume here</p>
-            
+            <div className="hero is-black is-medium-with-navbar">
+              <div className="hero-body">
+                <div className="container has-text-centered here">
+                  <a
+                    href="https://docs.google.com/document/d/1DzoqJRLrVJlvOe5CdlPxFmNoCjGGEOtN/edit?usp=sharing&ouid=114856392661887636707&rtpof=true&sd=true"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button resume-download"
+                  >
+                  <span className="icon"><MdGetApp /></span>
+                  <span>Download CV</span>
+                  </a>
+                </div>
+              </div>  
           </div>  
         </div>
       </div> 
