@@ -35,6 +35,27 @@
   justify-content: center;
 }
 
+.contact-side{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 100px;
+}
+
+.contact-email, .contact-based{
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.right-side, .left-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 /* MEDIA SCREENS */
 
