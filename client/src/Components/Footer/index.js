@@ -16,8 +16,8 @@ function Footer() {
   return (
     <div>
       <footer className='footer'> 
-          <div className='footer-context'>
-            <FaRegEnvelope className='here'onClick={closeState}></FaRegEnvelope>
+          <div className='footer-context' onClick={closeState}>
+            <FaRegEnvelope className='here'></FaRegEnvelope>
           </div>
           <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/' target={'_blank'} rel='noreferrer'>
             <div className='footer-context'>
@@ -35,9 +35,9 @@ function Footer() {
           </div>
           </a>
           {email ? (
-          <div className='email'>
+          <div className='email' onClick={closeState}>
             <button className='email-close'>
-              <FaWindowClose className='close' onClick={closeState}></FaWindowClose>
+              <FaWindowClose className='close'></FaWindowClose>
             </button>
             <div>
               Email Me At: djigo.maouchi@yahoo.com
