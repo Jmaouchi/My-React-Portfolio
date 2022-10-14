@@ -99,7 +99,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 25px;
     gap: 20px;
   }
     
@@ -126,7 +126,7 @@ a{
     background-color: rgb(11, 11, 11);
     color: white;
     border-radius: 15px;
-    padding: 15px;
+    padding: 25px;
     top: -350px;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ a{
     margin-right: 25px;
     color: red;
     background-color: black;
-    font-size: 10px;
+    font-size: 20px;
   }
 
 }
