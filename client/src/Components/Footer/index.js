@@ -17,21 +17,21 @@ function Footer() {
     <div>
       <footer className='footer'> 
           <div className='footer-context' onClick={closeState}>
-            <FaRegEnvelope className='here'></FaRegEnvelope>
+            <FaRegEnvelope className='mobile-res'></FaRegEnvelope>
           </div>
           <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/' target={'_blank'} rel='noreferrer'>
             <div className='footer-context'>
-              <FaLocationArrow className='here'></FaLocationArrow>
+              <FaLocationArrow className='mobile-res'></FaLocationArrow>
             </div>
           </a>
           <a href='https://www.instagram.com'target={'_blank'} rel='noreferrer'>
             <div className='footer-context'>
-              < FaInstagram className='here'></FaInstagram>
+              < FaInstagram className='mobile-res'></FaInstagram>
             </div>
           </a>
           <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'target={'_blank'} rel='noreferrer'>
           <div className='footer-context'>
-            < FaLinkedin className='here'></FaLinkedin>
+            < FaLinkedin className='mobile-res'></FaLinkedin>
           </div>
           </a>
           {email ? (

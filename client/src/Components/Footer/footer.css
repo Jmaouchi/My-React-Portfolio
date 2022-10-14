@@ -44,8 +44,12 @@ ul{
   cursor: pointer;
 }
 
-.footer-context:hover .here{
+.mobile-res{
   font-size: 15px;
+}
+
+.footer-context:hover .mobile-res{
+  font-size: 13px;
 }
 
 .footer-author{
@@ -139,6 +143,10 @@ a{
     color: red;
     background-color: black;
     font-size: 20px;
+  }
+
+  .mobile-res{
+    font-size: 10px;
   }
 
 }
