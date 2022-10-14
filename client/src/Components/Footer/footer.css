@@ -2,6 +2,7 @@
   background:rgb(6, 6, 6);
   color: rgb(148, 143, 143);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 30px;
@@ -26,6 +27,29 @@
 ul{
   text-decoration: none;
   list-style: none;
+}
+
+.footer-context{
+  border-left: 1px solid rgb(160, 157, 157);
+  border-spacing: 2px;
+  padding-left: 15px;
+}
+
+.footer-context:hover{
+  border-color: red;
+  cursor: pointer;
+}
+
+.footer-context:hover .here{
+  font-size: 15px;
+}
+
+.footer-author{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
 @media screen and (max-width: 509px) {

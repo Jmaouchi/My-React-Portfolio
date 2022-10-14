@@ -73,10 +73,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  top: 70%;
+  width: 500px;
+  top: 50%;
   z-index: 1;
-  left: -150px;
+  left: -300px;
 }
 
 .log-items{
@@ -85,24 +85,21 @@
   font-size: 18px;
 }
 
-.facebook:hover{
-  color: blue;
+.social-media{
+  transform: rotate(270deg);
+  font-size: 35px;
+  color: rgb(194, 191, 191);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.instagram:hover{
-  color: red;
-}
-
-.linkdin:hover{
-  color: blue;
-}
-
-.linkedin:hover{
-  color: rgb(39, 83, 150);
-}
-
-.github:hover{
-  color: rgb(80, 78, 78);
+.fav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  color: rgb(25, 24, 24);
 }
 
 .my-image{
@@ -364,8 +361,14 @@
   }
 
   .sign{
-    width: 200px;
-    top: 81%;
+    width: 500px;
+    top: 42%;
+    z-index: 1;
+    left: -300px;
+  }
+
+  .social-media{
+    font-size: 30px;
   }
   
 }
@@ -417,10 +420,14 @@
   }
 
   .sign{
-    width: 200px;
-    font-size: 12px;
-    font-weight: bold;
-    top: 80%;
+    width: 520px;
+    top: 45%;
+    z-index: 1;
+    left: -280px;
+  }
+
+  .social-media{
+    font-size: 25px;
   }
 
   .see-more{
@@ -451,10 +458,13 @@
   }
 
   .sign{
-    width: 200px;
-    font-size: 9px;
+    width: 520px;
     font-weight: bold;
-    top: 78%;
+    top: 50%;
+  }
+
+  .social-media{
+    font-size: 25px;
   }
   
 
@@ -522,14 +532,7 @@
   
   
   .sign{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    top: 70%;
-    bottom: -100px;
-    z-index: 1;
-    left: -120px;
+    display: none;
   }
 
   .log-items{

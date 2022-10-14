@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './contact.css'
-import Nav from '../Navbar'
+import Nav from '../Navbar2/index'
 import Footer from '../Footer/index';
 import emailjs from '@emailjs/browser';
 import Result from './Result';
@@ -35,7 +35,7 @@ function ContactPage() {
                 <h5 className='title my-4 mt-6 contact-title'>Contact Me</h5>
                 {/*Add contact form*/}
                 <form className='field contact-field my-6' ref={form} onSubmit={sendEmail}>
-                  <h2 className='my-4 contact-sub contact-infos-paragraph'>Or you can cantact me using this template</h2>
+                  <h2 className='my-4 contact-sub contact-infos-paragraph'>Cantact me by filling out this template </h2>
                   <div className='level  level-field '>
                     <div className='level-item is-flex-wrap-wrap mt-2'>
                       <div className='level-item mx-1'>

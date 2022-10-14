@@ -5,6 +5,7 @@ import myImage from '../../images/me-playing-2.jpg'
 import myImageTwo from '../../images/Bled.jpeg'
 import AnimatePage from '../Animate'
 import Typewriter from 'typewriter-effect'
+import {FaDev} from "react-icons/fa"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -56,12 +57,14 @@ function Me() {
             </div>
           </div>
           <div className='sign'>
-            <ul className='social-media'>
-              <a href='https://www.facebook.com/djigo.mat.1'><li><i className="fab fa-facebook log-items facebook"></i></li></a>
-              <a href='https://www.instagram.com/'><li><i className="fab fa-instagram log-items instagram"></i></li></a>
-              <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'><li><i className="fab fa-linkedin log-items linkedin"></i></li></a>
-              <a href='https://github.com/Jmaouchi'><li><i className="fab fa-github log-items github"></i></li></a>
-            </ul>
+            <div className='social-media'>
+              <div>
+                Full Ftack Web Developer
+              </div>
+              <div className='fav'>
+                <FaDev></FaDev>
+              </div>
+            </div>
           </div> 
         </div>
       </section>
@@ -89,14 +92,6 @@ function Me() {
               <a href='#here'><div className='see-more' onClick={toggleMore}>Back</div></a>
             </div>
           </div>
-          <div className='sign'>
-            <ul className='social-media'>
-              <a href='https://www.facebook.com/djigo.mat.1'><li><i className="fab fa-facebook log-items facebook"></i></li></a>
-              <a href='https://www.instagram.com/'><li><i className="fab fa-instagram log-items instagram"></i></li></a>
-              <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'><li><i className="fab fa-linkedin log-items linkedin"></i></li></a>
-              <a href='https://github.com/Jmaouchi'><li><i className="fab fa-github log-items github"></i></li></a>
-            </ul>
-          </div>  
         </div>
         </section>      
         )}
