@@ -2,7 +2,7 @@ export const myWorkdata = [
   {
     id:1,
     title:"Weather Dashboard",
-    text:"This app is built using HTML, CSS, JS. An app that i've built on my own 2022, this app will give you access to a daily and weekly wether status in your curent area",
+    text:"This app is built using HTML, CSS, JS. An app that i've built on my own 2022, this app will give you access to a daily and weekly weather status in your curent area",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/C59tXy8H/weather.webp",
     path:""
@@ -10,7 +10,7 @@ export const myWorkdata = [
   {
     id:2,
     title:"Pizza Hunt",
-    text:"This app is an MREN application. It will allow you to create your own pizza and checkout",
+    text:"This app is an MREN application. It will allow you to choose your own pizza and proceed to checkout",
     techs: ['fa-brands fa-react', 'fa-solid fa-database icon'],
     image:"https://i.postimg.cc/253tk8xF/pizza.webp",
     path:"https://pizza-hunt-hunt.herokuapp.com/"
@@ -26,7 +26,7 @@ export const myWorkdata = [
   {
     id:4,
     title:"Motor Bike Labs",
-    text:"This app is an MREN application. An app that i've built on my own 2022, this app will give access to many motorcycles and different brans, you can see infos of every motorcycle.",
+    text:"This app is an MREN application. An app that i've built on my own 2022, this app will give access to many motorcycles and different brands. you can see infos of every motorcycle.",
     techs: ['fa-brands fa-react', 'fa-solid fa-database icon'],
     image:"https://i.postimg.cc/cHn5392v/motor.webp",
     path:"https://motor-bike-labs.herokuapp.com/"
@@ -103,7 +103,7 @@ export const myWorkdata = [
   {
     id:11,
     title:"Book Search",
-    text:"This is a book search site that will allow you serch some books by name, and save them for later",
+    text:"This is a book search site that will allow you search some books by names, and save them for later",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/qRR8WQQx/book.jpg",
     path:"https://whispering-earth-59194.herokuapp.com/"
@@ -111,7 +111,7 @@ export const myWorkdata = [
   {
     id:12,
     title:"Quiz",
-    text:"This a little quiz that i made as a challenge for my school, fell free to checkout it out!",
+    text:"This a little quiz that i made as a challenge for my school, feel free to check it out!",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/d0D2x45m/question.jpg",
     path:"https://jmaouchi.github.io/Question-and-Answer-Game-/quiz.html"
@@ -119,7 +119,7 @@ export const myWorkdata = [
   {
     id:12,
     title:"Add Task",
-    text:"Task list that i've made before starting my coding school.",
+    text:"Task list that i made before starting my coding school.",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/Zq2FczPh/task.jpg",
     path:"https://jmaouchi.github.io/Task-List-/"
@@ -135,7 +135,7 @@ export const myWorkdata = [
   {
     id:13,
     title:"GitHub",
-    text:"I still have some server side apps that i made, please checkout my github to be able to clone them in your local machine",
+    text:"I still have some server side apps that i made, please checkout my github profile to be able to clone them into your local machine",
     techs: ['fa-brands fa-github'],
     image:"https://i.postimg.cc/X7JWWNgc/git.webp",
     path:"https://whispering-earth-59194.herokuapp.com/"
