@@ -31,12 +31,15 @@ ul{
 
 .footer-context{
   border-left: 1px solid rgb(160, 157, 157);
+  border-right: 1px solid  rgb(160, 157, 157);
   border-spacing: 2px;
   padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
 }
 
 .footer-context:hover{
-  border-color: red;
+  border-color: rgb(248, 242, 242);
   cursor: pointer;
 }
 
@@ -52,12 +55,18 @@ ul{
   padding: 15px;
 }
 
+a{
+  color: rgb(120, 120, 121);
+}
+
 @media screen and (max-width: 509px) {
 
   .footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    gap: 20px;
   }
     
   .small-image-p-tag{
