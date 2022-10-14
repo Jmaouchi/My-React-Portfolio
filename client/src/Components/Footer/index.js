@@ -1,35 +1,49 @@
 import React, {useState} from 'react'
-import { FaLinkedin } from "react-icons/fa";
-import {FaLocationArrow} from "react-icons/fa"
-import {FaInstagram} from "react-icons/fa"
-import {FaRegEnvelope} from "react-icons/fa"
+import { FaLinkedin, FaWindowClose , FaLocationArrow, FaInstagram, FaRegEnvelope} from "react-icons/fa";
 import './footer.css'
 
 function Footer() {
 
+  const [email, setEmail] = useState(false);
+  // update the state
+  function closeState() {
+    if (email === true) {
+      setEmail(false);
+    } else {
+      setEmail(true);
+    }
+  }
   return (
     <div>
       <footer className='footer'> 
-          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'>
-            <div className='footer-context'>
-              <FaRegEnvelope className='here'></FaRegEnvelope>
-            </div>
-          </a>
-          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'>
+          <div className='footer-context'>
+            <FaRegEnvelope className='here'onClick={closeState}></FaRegEnvelope>
+          </div>
+          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/' target={'_blank'} rel='noreferrer'>
             <div className='footer-context'>
               <FaLocationArrow className='here'></FaLocationArrow>
             </div>
           </a>
-          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'>
-          <div className='footer-context'>
-            < FaInstagram className='here'></FaInstagram>
-          </div>
+          <a href='https://www.instagram.com'target={'_blank'} rel='noreferrer'>
+            <div className='footer-context'>
+              < FaInstagram className='here'></FaInstagram>
+            </div>
           </a>
-          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'>
+          <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'target={'_blank'} rel='noreferrer'>
           <div className='footer-context'>
             < FaLinkedin className='here'></FaLinkedin>
           </div>
           </a>
+          {email ? (
+          <div className='email'>
+            <button className='email-close'>
+              <FaWindowClose className='close' onClick={closeState}></FaWindowClose>
+            </button>
+            <div>
+              Email Me At: djigo.maouchi@yahoo.com
+            </div> 
+          </div>
+          ):(null)}
       </footer>
     </div>
     
