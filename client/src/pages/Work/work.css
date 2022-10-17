@@ -226,6 +226,10 @@ border-radius: 15px;
   transition: 1s;
   color: transparent;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-text-wrapper:hover h2{
@@ -277,6 +281,26 @@ border-radius: 15px;
   color: black;
 }
 
+.src{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 15px;
+
+}
+
+.path-live{
+  background-color:rgb(218, 212, 212);
+  color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.path-live:hover{
+  background-color: var(--main);
+  color: rgb(228, 222, 210);
+}
 
 
 @media screen and (max-width: 756px){

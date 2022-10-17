@@ -39,8 +39,8 @@ function Work() {
         <div className="portfolio-items-wrapper ">
           {/* one */}
           {myWorkdata.map((item) => (
-          <a href={item.path} className='div-col'>
-            <div className="portfolio-item-wrapper ">
+          <div className='div-col'>
+            <div className="portfolio-item-wrapper">
               <div className="portfolio-img-background item"><img className='portfolio-img-background item' src={item.image} alt="" />
               </div>
               <div className="img-text-wrapper">
@@ -52,10 +52,14 @@ function Work() {
                 <div className="subtitle">
                   <h2>{item.title}</h2>
                   <p>{item.text}</p>
+                  <div className='src'>
+                    <a href={item.path} className="path-live">Live</a>
+                    <a href={item.github} className="path-live">GitHub</a>
+                  </div>  
                 </div>
               </div>
             </div> 
-          </a>
+          </div>
           ))} 
         </div>
         <div className='grid-bottom-line'>
