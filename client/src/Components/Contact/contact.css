@@ -55,7 +55,25 @@
   justify-content: center;
 }
 
+.contact-email-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.envelope{
+  margin-left: 5px;
+  color: rgb(3, 3, 3);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.envelope:hover{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
 
 /* MEDIA SCREENS */
 

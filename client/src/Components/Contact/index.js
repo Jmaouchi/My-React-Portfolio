@@ -4,16 +4,18 @@ import Nav from '../Navbar2/index'
 import Footer from '../Footer/index';
 import emailjs from '@emailjs/browser';
 import Result from './Result';
+import {FaRegEnvelope} from "react-icons/fa";
+
 // import useMutation from the apollo client. (this will allow us to use the mutations that we has as a middleware on the server side)
 // import { useMutation } from '@apollo/client';
 // import { ADD_CONTACT } from '../../utils/mutations';
 
 function ContactPage() {
     const [result, showResult] = useState(false)
+    // use emailS API to be able to receive messages from the user 
     const form = useRef();
     const sendEmail = (e) => {
       e.preventDefault();
-
       emailjs.sendForm('service_j84of8n', 'template_6ze1f5a', form.current, '95R44YpVYI3jOrQ2D')
         .then((result) => {
             console.log(result.text);
@@ -23,6 +25,17 @@ function ContactPage() {
         e.target.reset();
         showResult(true)
     };
+
+    // use state hook to be able to open the envelop hidden div 
+    const [email, setEmail] = useState(false);
+    // update the state
+    function closeState() {
+      if (email === true) {
+        setEmail(false);
+      } else {
+        setEmail(true);
+      }
+    }
 
   return (
     <>
@@ -35,7 +48,13 @@ function ContactPage() {
                 <h5 className='title my-4 mt-6 contact-title'>Contact Me</h5>
                 {/*Add contact form*/}
                 <form className='field contact-field my-6' ref={form} onSubmit={sendEmail}>
-                  <h2 className='my-4 contact-sub contact-infos-paragraph'>Cantact me by filling out this template </h2>
+                  <h2 className='my-4 contact-sub contact-infos-paragraph contact-email-heading'>
+                    <div>Cantact me by email</div> 
+                    <FaRegEnvelope className='mobile-res envelope'></FaRegEnvelope>
+                  </h2>
+                  <div>
+                    Or by filling out this template
+                  </div>
                   <div className='level  level-field '>
                     <div className='level-item is-flex-wrap-wrap mt-2'>
                       <div className='level-item mx-1'>
