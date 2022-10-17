@@ -59,20 +59,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
 }
 
-.envelope{
-  margin-left: 5px;
-  color: rgb(3, 3, 3);
-  font-size: 15px;
-  cursor: pointer;
-}
-
-
-.envelope:hover{
-  color: white;
-  background-color: black;
-  font-size: 20px;
+.my-email{
+  font-weight: 100;
+  font-size: 14px;
+  color: rgb(31, 31, 222);
 }
 
 /* MEDIA SCREENS */

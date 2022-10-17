@@ -48,10 +48,10 @@ function ContactPage() {
                 <h5 className='title my-4 mt-6 contact-title'>Contact Me</h5>
                 {/*Add contact form*/}
                 <form className='field contact-field my-6' ref={form} onSubmit={sendEmail}>
-                  <h2 className='my-4 contact-sub contact-infos-paragraph contact-email-heading'>
-                    <div>Cantact me by email</div> 
-                    <FaRegEnvelope className='mobile-res envelope'></FaRegEnvelope>
-                  </h2>
+                  <div className='my-4 contact-sub contact-infos-paragraph contact-email-heading'>
+                    <div>By Email:</div> 
+                    <div className='my-email'>djigo.maouchi@yahoo.com</div>
+                  </div>
                   <div>
                     Or by filling out this template
                   </div>
