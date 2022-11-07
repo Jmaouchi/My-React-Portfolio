@@ -37,11 +37,11 @@ function Me() {
               <h2 className='inside-heading'>I am Jugurta</h2>
               <div className='section-two-about-me'>
                 <div className='about-me-content-one'>
-                  <p className='about-me-paragraph'>I am a Fullstack developer! I started coding since i moved to the USA 2019. Started with 
-                  some basic HTML and CSS, then moved to JavaScript. I really enjoy my time when i code, and i would love 
-                  to be part of this industry soon, i can consider myself a fast learner and hungry to learn new 
-                  technologies. I do have a biology bachelors degree. i also can be a translator since i speak 5 languages, 
-                  (English, French, Arabic, Berber and a little Spanish). My hobbies are soccer and boxing
+                  <p className='about-me-paragraph'>Hi, I'm Jugurta! I'm a young innovative thinker going into the software development field. 
+                  I have in-depth experience with JavaScript, HTML, CSS, React, Node.js, Express.js, Handlebars, MongoDB, MySQL, SQL, Git and many 
+                  other libraries and frameworks. Being experienced with front-end and back-end web development, I'm confident in my abilities to 
+                  optimize functions and provide user friendly, initiative, adaptable, and effective solutions. I'm always open to learning and developing 
+                  connections with other software engineers in the area, so feel free to message me.
                   </p>
                 </div>
                 <a href='#here'><div className='see-more' onClick={toggleMore}>See More</div></a>
