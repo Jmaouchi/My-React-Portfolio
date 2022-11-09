@@ -237,6 +237,53 @@
   text-align: center;
 }
 
+.main{
+  position: relative;
+}
+
+.contact-info{
+  background-color: transparent;
+  position: absolute;
+  min-height: 50vh;
+  width: 450px;
+  top: 23%;
+  left: 35%;
+  border: 5px solid rgb(11, 11, 11);
+  color: white;
+  z-index: 999;
+}
+
+.contact-info::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.my-info-flex{
+  display: flex;
+}
+
+.signMe{
+  font-family: Snell Roundhand, cursive;
+}
+
+path{
+  stroke-dasharray: 3464.576416015625px;
+  stroke-dashoffset: 3464.576416015625px;
+  animation: lineAnimation 7s ease forwards;
+  animation-delay: 1s;
+}
+
+
+@keyframes lineAnimation {
+  to {
+    stroke-dashoffset:0px ;
+  }
+}
 
 @media screen and (max-width: 1540px) {
 
@@ -637,5 +684,15 @@
     z-index: -999;
     font-family: 'Bungee Inline', cursive;
   }
+
+  
+.contact-info{
+  background-color: red;
+  position: absolute;
+  min-height: 30vh;
+  width: 150px;
+  top: 23%;
+  left: 35%;
+}
    
 }

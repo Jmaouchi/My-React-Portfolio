@@ -20,7 +20,7 @@ function Me() {
     }
   }
   return (
-    <div>
+    <div className='main'>
       <AnimatePage>
       {!about ? (
       <section className='format-section'>
@@ -95,6 +95,32 @@ function Me() {
         </div>
         </section>      
         )}
+      <div className='contact-info'>
+        <div className='infos'>
+          <div className='my-info-flex'>
+            <div>First Name:</div>
+            <p>Jugurta Maouchi</p>
+          </div>
+          <div className='my-info-flex'>
+            <div>Last Name:</div>
+            <p>Jugurta Maouchi</p>
+          </div>
+          <div className='my-info-flex'>
+            <div>Email:</div>
+            <p>djigo@yahoo.com</p>
+          </div>
+          <div className='my-info-flex'>
+            <div>Phone:</div>
+            <p>210-668-9245</p>
+          </div>
+          <div className='signMe'>
+            NoraMohand
+          </div>
+        </div>
+        <div className='resume'>
+          download
+        </div>
+      </div>
       </AnimatePage>
       <Footer></Footer>
     </div>
