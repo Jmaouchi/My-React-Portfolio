@@ -267,16 +267,6 @@
   display: flex;
 }
 
-.signMe{
-  font-family: Snell Roundhand, cursive;
-}
-
-path{
-  stroke-dasharray: 3464.576416015625px;
-  stroke-dashoffset: 3464.576416015625px;
-  animation: lineAnimation 7s ease forwards;
-  animation-delay: 1s;
-}
 
 
 @keyframes lineAnimation {

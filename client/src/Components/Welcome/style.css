@@ -1,0 +1,22 @@
+.signMe{
+  font-family: Snell Roundhand, cursive;
+}
+
+path{
+  stroke-dasharray: 3464.576416015625px;
+  stroke-dashoffset: 3464.576416015625px;
+  animation: lineAnimation 7s ease forwards;
+  animation-delay: 1s;
+}
+
+.svg{
+  
+}
+
+.my-welcome-signature{
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
